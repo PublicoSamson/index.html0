@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevNotes | Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html" class="logo">DevNotes</a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="create.html">Write Post</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <!-- Public API Section -->
+    <section class="api-box">
+      <h3>New Quote Posts</h3>
+      <p id="quote-text">Knowledge is power...</p>
+      <small id="quote-author"></small>
+      <button id="new-quote-btn" class="btn-secondary">New Quote</button>
+    </section>
+
+    <!-- Blog Posts Feed -->
+    <section>
+      <div class="section-header">
+        <h1>Create A New Quote Post</h1>
+        <a href="create.html" class="btn-primary">+ New Post</a>
+      </div>
+      <div id="posts-container"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
